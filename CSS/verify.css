@@ -1,0 +1,51 @@
+h3 {
+  text-decoration: underline;
+  color: #1f2437;
+}
+form label {
+  margin-top: 10px;
+}
+.form-control {
+  border-color: #a3a3a331;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+  border-color: #ff984c;
+}
+span {
+  color: red;
+}
+
+.button {
+  margin-top: 1%;
+  background-color: #1d2143;
+  color: white;
+  font-size: 18px;
+}
+
+footer {
+  height: 20rem;
+}
+
+@media only screen and (max-width: 600px) {
+  h3,
+  form {
+    margin-left: 5%;
+  }
+  .button {
+    margin-top: 4%;
+  }
+
+  footer {
+    height: 30rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  footer {
+    height: 30rem;
+  }
+}
